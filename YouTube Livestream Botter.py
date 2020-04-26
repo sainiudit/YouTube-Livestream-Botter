@@ -9,9 +9,7 @@ import platform
 import requests
 from colorama import Fore, init
 
-intro = """ 
-Yottube view
-"""
+intro = "Youtube view"
 
 print(intro)
 
@@ -39,9 +37,8 @@ class main(object):
         while True:
             if True:
                 os.system(clear)
-                print(Fore.LIGHTCYAN_EX + intro + Fore.LIGHTMAGENTA_EX)
-                print(
-                    Fore.LIGHTCYAN_EX + f"Botted:{self.botted}\n")
+                print( intro )
+                print(f"Botted:{self.botted}\n")
                 for i in range(len(self.printing) - 10, len(self.printing)):
                     try:
                         print(self.printing[i])
